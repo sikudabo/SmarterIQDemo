@@ -1,0 +1,152 @@
+:root { box-sizing: border-box;
+      }
+
+*,
+::before,
+::after { box-sizing: inherit;
+	}
+
+body * + * { margin-top: 1.5em;
+	   }
+
+body { font-family: "Raleway, Helvetica";
+       background-color: #eee;
+       padding: 0;
+       margin: 0;
+       --crimson-color: rgba(220, 20, 60, 1);
+       --cream-color: rgba(255, 253, 208, 1);
+       --navy-color: rgba(25, 25, 112, 1);
+     }
+
+/*Remove the padding for the container*/
+.container { margin: 0;
+	     padding: 0;
+	   }
+
+.hero { background-image: linear-gradient(90deg, #eee, blue);
+      }
+
+/*Have the logo-login div display flex as well*/
+.logo-login { display: flex;
+	    }
+
+/*Some how I must make the logo div display flex, key next to words */
+.logo-div { display: flex;
+	    margin-left: 1em;
+	    opacity: 1;
+	  }
+
+.logo-div >  img { width: 200px;
+		   margin-right: 1em;
+		   margin-top: 0;
+		 }
+
+/*Change the font-color and the font-family to helvetica for logo words */
+.logo-div > h1 { color: var(--navy-color);
+		 font-familly: helvetica;
+		 margin-top: 1.2em;
+		 font-size: 2em;
+	       }
+
+.top-login { text-decoration: none;
+	     color: #fff;
+	     font-size: 2em;
+	     margin-left: auto;
+	     font-weight: bold;
+	     text-transform: uppercase;
+	     margin-top: 1.5em;
+	     margin-right: 2em;
+	   }
+
+/*Set wrappers width then margin to auto to center  the nav*/
+.nav-wrapper { width: 50%;
+	       margin: auto;
+	     }
+
+.site-nav { display: flex;
+	    margin-top: 2em;
+	    flex-direction: row;
+	    list-style-type: none;
+	  }
+
+.site-nav > li { display: block;
+		 margin-left: 1.5em;
+	       }
+
+.site-nav > li + li { margin-top: 0;
+		    }
+
+.site-nav > li > a { text-decoration: none;
+		     color: #fff;
+		     font-size: 2em;
+		     font-weight: bold;
+		   }
+.slogan-vec { margin-top: 3em;
+	      margin-left: 1em;
+	      text-align: center;
+	    }
+
+.slogan > h1 { color: var(--navy-color);
+	     }
+
+.slog-desc > p { color: var(--navy-color);
+		 font-weight: bold;
+		 font-size: 1.5em;
+	       }
+
+
+.demo-btn { text-decoration: none;
+	    background-color: var(--navy-color);
+	    color: #fff;
+	    padding: 0.5em 1.5em;
+	    text-transform: uppercase;
+	    display: inline-block;
+	    width: 20%;
+	  }
+
+.tab-img { height: 200px;
+	 }
+
+.responsive-div { text-align: center;
+		}
+
+.responsive-div > h1 { color: var(--navy-color);
+		       margin-top: 2em;
+		       margin-bottom: 0em;
+		       width: 50%;
+		       margin: auto;
+		     }
+
+.resp-img { margin-top: -7em;
+	    margin-bottom: 0;
+	  }
+
+.ahead-div { text-align: center;
+	     margin-top: -7em;
+	   }
+
+.ahead-div > h1 { color: var(--navy-color);
+		  width: 50%;
+		  margin: auto;
+		}
+
+.ahead-div > p { color: var(--navy-color);
+		 width: 50%;
+		 margin: auto;
+		 font-size: 1.5em;
+		 font-weight: bold;
+	       }
+
+.learn-more-link { text-decoration: none;
+		   color: red;
+		 }
+
+.ahead-div > img { width: 25%;
+		 }
+
+
+
+
+
+
+
